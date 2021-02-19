@@ -27,7 +27,7 @@ public class Drag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
             wupinobj = Instantiate(go);
             wupinobj.transform.SetParent(nowparent.transform);
             Debug.Log("开始拖拽" + wupinobj.transform.parent);
-
+            wupinobj.transform.GetComponent<CanvasGroup>().blocksRaycasts = true;
         }
     }
 
