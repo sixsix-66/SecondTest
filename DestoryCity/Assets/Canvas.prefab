@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 3242035714266786998}
   - component: {fileID: 3242035714266787001}
   - component: {fileID: 3242035714266787000}
+  - component: {fileID: 3020290384135736288}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -188,6 +189,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &3020290384135736288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3242035714266787003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 855131f64e13e1c4c8c1d113f5a7f553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodValue: 10
 --- !u!1 &3242035714395593724
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,6 +514,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   go: {fileID: 1329845292236604, guid: 9bba9cf244c53c5439505dfc96fdd11c, type: 3}
+  R: 2
+  CircleMaterial: {fileID: 0}
 --- !u!114 &3242035714728292569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -944,6 +960,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   go: {fileID: 1025285306637258, guid: d8f0099df63275647a8bcf646df1ca00, type: 3}
+  R: 2
+  CircleMaterial: {fileID: 0}
 --- !u!1 &3242035715606425712
 GameObject:
   m_ObjectHideFlags: 0

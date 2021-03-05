@@ -4,10 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Shootable
-  - Button1
   - LastScene
   - NextScene
+  - slider
+  - aa
+  - bb
+  - player
   layers:
   - Default
   - TransparentFX
